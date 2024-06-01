@@ -1,55 +1,51 @@
 {
-  "version": "1.7.6",
   "language": "en",
-  "useEnvForCredentials": false,
-  "envGuide": "When useEnvForCredentials enabled, it will use the process.env key provided for email and password, which helps hide your credentials, you can find env in render's environment tab, you can also find it in replit secrets.",
   "DeveloperMode": true,
-  "autoCreateDB": true,
+  "autoCreateDB": false,
   "allowInbox": false,
   "autoClean": true,
   "adminOnly": false,
-  "autoCensor": true,
-  "encryptSt": false,
-  "removeSt": false,
-  "UPDATE": {
-    "Package": true,
-    "EXCLUDED": [
-      "chalk",
-      "mqtt",
-      "https-proxy-agent"
-    ],
-    "Info": "This section manages the bot's automatic package updates. To disable this function, set 'Package' to false. If you only want to exclude specific packages, set them to true and add them in the 'EXCLUDED' list."
-  },
+  "encryptSt": true,
+  "UPTIME": 999999999,
   "commandDisabled": [],
   "eventDisabled": [],
-  "BOTNAME": "Bot",
-  "PREFIX": "?",
+  "BOTOWNER": "ericson終.",
+  "OWNERLINK": "https://www.facebook.com/ericsonpascua6",
+  "OWNERID": "100027279883548",
+  "BOTCREATOR": "ericson終.",
+  "CREATORLINK": "https://www.facebook.com/ericsonpascua6",
+  "CREATORID": "100027279883548",
+  "BOTNAME": "ericson",
+  "PREFIX": "-",
   "ADMINBOT": [
-    "YOUR_FB_UID",
-    "OTHER_FB_UID"
+    "100027279883548",
+    "",
+    "",
+    ""
   ],
   "DESIGN": {
-    "Title": "BotPack",
-    "Theme": "Blue",
-    "Admin": "YOUR_NAME",
+    "Title": "ericson終.",
+    "Theme": "Ghost",
+    "Admin": "ericson終.",
     "Setup": {
-      "Info": "Design your own custom terminal Titlebar for the title and must contain no numbers",
-      "Theme": "Customize your console effortlessly with various theme colors. Explore Aqua, Fiery, Blue, Orange, Pink, Red, Retro, Sunlight, Teen, Summer, Flower, Ghost, Purple, Rainbow, and Hacker themes to enhance your terminal logs."
+      "Title": "Design your own custom terminal Titlebar with a maximum of 8 characters for the title and must contain no numbers",
+      "Theme": "Effortlessly customize your console with a variety of theme colors, making it easier than ever to create your desired console look. Explore themes like Aqua, Fiery, Blue, Pink, Red, Retro, Sunlight, Teen, Summer, Flower, Ghost, and Hacker to enhance your terminal logs."
     }
   },
   "APPSTATEPATH": "appstate.json",
   "DEL_FUNCTION": false,
   "ADD_FUNCTION": true,
   "FCAOption": {
-    "forceLogin": false,
+    "forceLogin": true,
     "listenEvents": true,
     "autoMarkDelivery": false,
     "autoMarkRead": false,
-    "logLevel": "error",
+    "pauseLog": true,
+    "logLevel": "silent",
     "selfListen": false,
-    "online": true,
     "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/8.0.3 Safari/600.3.18"
   },
+  "version": "1.2.5",
   "daily": {
     "cooldownTime": 43200000,
     "rewardCoin": 500
@@ -58,8 +54,8 @@
     "cooldownTime": 1200000
   },
   "help": {
-    "autoUnsend": true,
-    "delayUnsend": 60
+    "autoUnsend": false,
+    "delayUnsend": 150
   },
   "adminUpdate": {
     "autoUnsend": true,
@@ -71,18 +67,38 @@
     "sendNoti": true,
     "timeToUnsend": 10
   },
+  "math": {
+    "WOLFRAM": "T8J8YV-H265UQ762K"
+  },
   "sing": {
-    "YOUTUBE_API": "AIzaSyCqox-KXEwDncsuo2HIpE0MF8J7ATln5Vc",
+    "YOUTUBE_API": "AIzaSyBVDwRSIEvC1VDL7-6Wx8xmmp4de0m0XQc",
     "SOUNDCLOUD_API": "M4TSyS6eV0AcMynXkA3qQASGcOFQTWub"
   },
   "video": {
     "YOUTUBE_API": "AIzaSyDEE1-zZSRVI8lTaQOVsIAQFgL-_BJKvhk"
   },
   "audio": {
-    "YOUTUBE_API": "AIzaSyDEE1-zZSRVI8lTaQOVsIAQFgL-_BJKvhk"
+    "YOUTUBE_API": "AIzaSyBVDwRSIEvC1VDL7-6Wx8xmmp4de0m0XQc"
   },
   "menu": {
     "autoUnsend": true,
     "delayUnsend": 60
+  },
+  "log": {
+    "enable": true
+  },
+  "coinflip": {},
+  "helpv2": {
+    "autoUnsend": true,
+    "delayUnsend": 500
+  },
+  "chemeb": {},
+  "helpall": {
+    "autoUnsend": true,
+    "delayUnsend": 500
+  },
+  "prefix": {
+    "autoUnsend": true,
+    "delayUnsend": 20
   }
 }
